@@ -3,15 +3,18 @@ class DatabaseConnection:
     def connect(self):
         pass
 
+
 # MySQL connection class
 class MySQLConnection(DatabaseConnection):
     def connect(self):
         print("Connecting to MySQL database.")
 
-# PostgreSQL connection class
-class PostgreSQLConnection(DatabaseConnection):
+
+# PostgresSQL connection class
+class PostgresSQLConnection(DatabaseConnection):
     def connect(self):
-        print("Connecting to PostgreSQL database.")
+        print("Connecting to PostgresSQL database.")
+
 
 # Connection factory class
 class ConnectionFactory:
@@ -19,10 +22,11 @@ class ConnectionFactory:
     def create_connection(db_type):
         if db_type == "MySQL":
             return MySQLConnection()
-        elif db_type == "PostgreSQL":
-            return PostgreSQLConnection()
+        elif db_type == "PostgresSQL":
+            return PostgresSQLConnection()
         raise ValueError("Unknown database type")
 
+
 # Usage
-connection = ConnectionFactory.create_connection("PostgreSQL")
+connection = ConnectionFactory.create_connection("PostgresSQL")
 connection.connect()

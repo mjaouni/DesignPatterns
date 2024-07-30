@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7431c130-f9e4-42d5-8e89-01957cb1cbb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DesignPatterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/AbstractFactory-ContentFactory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/AbstractFactory-ThemeFactory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/Builder/Builder-ComputerBuilder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/Builder/Builder-MenuBuilder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/Factory/Factory-DBConnection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/Factory/Factory-DocumentConverter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/Factory/Factory-Notification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational/Prototype/Prototype-Document.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Adapter/Adapter-Inventory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Structural/Adapter/Adapter-Payment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/Bridge-Device.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/Bridge-Media.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational/Factory/Factory-DBConnection.py" beforeDir="false" afterPath="$PROJECT_DIR$/Creational/Factory/Factory-DBConnection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +36,8 @@
     "Python.AbstractFactory-ThemeFactory.executor": "Run",
     "Python.Adapter-Inventory.executor": "Run",
     "Python.Adapter-Payment.executor": "Run",
+    "Python.Bridge-Device.executor": "Run",
+    "Python.Bridge-Media.executor": "Run",
     "Python.Builder-ComputerBuilder.executor": "Run",
     "Python.Builder-MenuBuilder.executor": "Run",
     "Python.Factory-DBConnection.executor": "Run",
@@ -67,7 +56,7 @@
       <recent name="C:\Users\user\PycharmProjects\DesignPatterns\Factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Adapter-Inventory">
+  <component name="RunManager" selected="Python.Bridge-Media">
     <configuration name="Adapter-Inventory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <option name="ENV_FILES" value="" />
@@ -112,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Builder-ComputerBuilder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Bridge-Device" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,11 +110,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Builder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Structural/Bridge" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Builder/Builder-ComputerBuilder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Structural/Bridge/Bridge-Device.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Builder-MenuBuilder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Bridge-Media" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Builder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Structural/Bridge" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Builder/Builder-MenuBuilder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Structural/Bridge/Bridge-Media.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Bridge-Media" />
+        <item itemvalue="Python.Bridge-Device" />
         <item itemvalue="Python.Adapter-Inventory" />
         <item itemvalue="Python.Adapter-Payment" />
         <item itemvalue="Python.Prototype-Document" />
-        <item itemvalue="Python.Builder-MenuBuilder" />
-        <item itemvalue="Python.Builder-ComputerBuilder" />
       </list>
     </recent_temporary>
   </component>
