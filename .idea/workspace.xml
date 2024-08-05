@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7431c130-f9e4-42d5-8e89-01957cb1cbb4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Structural/Flyweight/Flyweight-Product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Flyweight/Flyweight-Tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structural/Decorator/Decorator-Auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Decorator/PythonDecorator-Auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Structural/Decorator/Decorator-TypeCheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/Structural/Decorator/PythonDecorator-TypeCheck.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,8 @@
     "Python.Factory-DBConnection.executor": "Run",
     "Python.Factory-DocumentConverter.executor": "Run",
     "Python.Factory-Notification.executor": "Run",
+    "Python.Flyweight-Product.executor": "Run",
+    "Python.Flyweight-Tree.executor": "Run",
     "Python.Prototype-Document.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -62,7 +64,7 @@
       <recent name="C:\Users\user\PycharmProjects\DesignPatterns\Factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Facade-Order">
+  <component name="RunManager" selected="Python.Flyweight-Product">
     <configuration name="Decorator-BasicExample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <option name="ENV_FILES" value="" />
@@ -129,7 +131,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PythonDecorator-Auth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Flyweight-Product" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Structural/Decorator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Structural/Flyweight" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\user\PycharmProjects\DesignPatterns\Structural\Decorator\PythonDecorator-Auth.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Structural/Flyweight/Flyweight-Product.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PythonDecorator-TypeCheck" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Flyweight-Tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,11 +162,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Structural/Decorator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Structural/Flyweight" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\user\PycharmProjects\DesignPatterns\Structural\Decorator\PythonDecorator-TypeCheck.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Structural/Flyweight/Flyweight-Tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Flyweight-Product" />
+        <item itemvalue="Python.Flyweight-Tree" />
         <item itemvalue="Python.Facade-Order" />
         <item itemvalue="Python.Facade-Movie" />
         <item itemvalue="Python.Decorator-BasicExample" />
-        <item itemvalue="Python.PythonDecorator-TypeCheck" />
-        <item itemvalue="Python.PythonDecorator-Auth" />
       </list>
     </recent_temporary>
   </component>
