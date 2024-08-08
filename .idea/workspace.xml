@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7431c130-f9e4-42d5-8e89-01957cb1cbb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Behavioral/Chain-of-Responsibility-DocumentApproval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Behavioral/Chain-of-Responsibility-PurchaseApproval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Behavioral/Chain-of-Responsibility-SupportHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Command/Command-TextEditor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Command/Commnad-FileSystem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Chain-of-Responsibility-DocumentApproval.py" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/ChainOfResponsibility/Chain-of-Responsibility-DocumentApproval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Chain-of-Responsibility-PurchaseApproval.py" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/ChainOfResponsibility/Chain-of-Responsibility-PurchaseApproval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Behavioral/Chain-of-Responsibility-SupportHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/ChainOfResponsibility/Chain-of-Responsibility-SupportHandler.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,8 @@
     "Python.Chain-of-Responsibility-DocumentApproval.executor": "Run",
     "Python.Chain-of-Responsibility-PurchaseApproval (1).executor": "Run",
     "Python.Chain-of-Responsibility-SupportHandler.executor": "Run",
+    "Python.Command-TextEditor.executor": "Run",
+    "Python.Commnad-FileSystem.executor": "Run",
     "Python.Composite-Employee.executor": "Run",
     "Python.Composite-GUI.executor": "Run",
     "Python.Decorator-Auth.executor": "Run",
@@ -69,11 +73,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\DesignPatterns\Behavioral\ChainOfResponsibility" />
       <recent name="C:\Users\user\PycharmProjects\DesignPatterns\Creational" />
       <recent name="C:\Users\user\PycharmProjects\DesignPatterns\Factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Chain-of-Responsibility-DocumentApproval">
+  <component name="RunManager" selected="Python.Commnad-FileSystem">
     <configuration name="Chain-of-Responsibility-DocumentApproval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <option name="ENV_FILES" value="" />
@@ -87,29 +92,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Behavioral/Chain-of-Responsibility-DocumentApproval.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Chain-of-Responsibility-PurchaseApproval (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DesignPatterns" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Behavioral" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Behavioral/Chain-of-Responsibility-PurchaseApproval.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\user\PycharmProjects\DesignPatterns\Behavioral\ChainOfResponsibility\Chain-of-Responsibility-DocumentApproval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +114,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\user\PycharmProjects\DesignPatterns\Behavioral\Chain-of-Responsibility-PurchaseApproval.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\user\PycharmProjects\DesignPatterns\Behavioral\ChainOfResponsibility\Chain-of-Responsibility-PurchaseApproval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +136,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Behavioral/Chain-of-Responsibility-SupportHandler.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\user\PycharmProjects\DesignPatterns\Behavioral\ChainOfResponsibility\Chain-of-Responsibility-SupportHandler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Proxy-Cache" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Command-TextEditor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,11 +154,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Structural/Proxy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Behavioral/Command" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Structural/Proxy/Proxy-Cache.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Behavioral/Command/Command-TextEditor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Commnad-FileSystem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Behavioral/Command" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Behavioral/Command/Commnad-FileSystem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Commnad-FileSystem" />
+        <item itemvalue="Python.Command-TextEditor" />
         <item itemvalue="Python.Chain-of-Responsibility-DocumentApproval" />
         <item itemvalue="Python.Chain-of-Responsibility-SupportHandler" />
         <item itemvalue="Python.Chain-of-Responsibility-PurchaseApproval (1)" />
-        <item itemvalue="Python.Chain-of-Responsibility-PurchaseApproval" />
-        <item itemvalue="Python.Proxy-Cache" />
       </list>
     </recent_temporary>
   </component>
