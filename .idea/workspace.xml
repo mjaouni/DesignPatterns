@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7431c130-f9e4-42d5-8e89-01957cb1cbb4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Behavioral/Template/Template-DataProcessor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Behavioral/Template/Template-DocumentGeneration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Singleton/Singleton-Config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Singleton/Singleton-WeatherAPI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,11 +69,13 @@
     "Python.Proxy-AccessControl.executor": "Run",
     "Python.Proxy-Cache.executor": "Run",
     "Python.Proxy-RemoteService.executor": "Run",
+    "Python.Sigleton-WeatherAPI.executor": "Run",
     "Python.State-TrafficLight.executor": "Run",
     "Python.State-VendingMachine.executor": "Run",
     "Python.Strategy-CompressionStrategy.executor": "Run",
     "Python.Strategy-PaymentStrategy.executor": "Run",
     "Python.Template-DataProcessor.executor": "Run",
+    "Python.Template-DocumentGeneration.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -88,8 +90,8 @@
       <recent name="C:\Users\user\PycharmProjects\DesignPatterns\Factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Template-DocumentGeneration">
-    <configuration name="State-VendingMachine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Singleton-WeatherAPI">
+    <configuration name="Singleton-WeatherAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Behavioral/State" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Creational/Singleton" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Behavioral/State/State-VendingMachine.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\user\PycharmProjects\DesignPatterns\Creational\Singleton\Singleton-WeatherAPI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Singleton-WeatherAPI" />
         <item itemvalue="Python.Template-DocumentGeneration" />
         <item itemvalue="Python.Template-DataProcessor" />
         <item itemvalue="Python.Strategy-CompressionStrategy" />
         <item itemvalue="Python.Strategy-PaymentStrategy" />
-        <item itemvalue="Python.State-VendingMachine" />
       </list>
     </recent_temporary>
   </component>
